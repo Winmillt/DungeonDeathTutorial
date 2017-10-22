@@ -59,7 +59,7 @@ bool DungeonDeathGame::init()
 
 	renderer->setClearColour(ASGE::COLOURS::BLACK);
 
-	//create player
+	//create player memes
 	Player* player_one = new Player(Player::PlayerClass::BARBARIAN);
 	player_one->loadAvatar(renderer.get());
 	
